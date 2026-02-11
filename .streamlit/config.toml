@@ -1,6 +1,7 @@
 [server]
-# Use localhost instead of 0.0.0.0
-address = "localhost"
+# For Streamlit Cloud: DO NOT set address (defaults to 0.0.0.0)
+# For local development: uncomment the line below
+# address = "localhost"
 port = 8501
 
 # Optional: Disable auto-opening browser
